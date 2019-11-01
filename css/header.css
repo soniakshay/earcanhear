@@ -1,0 +1,136 @@
+html,body{
+    margin:0px;
+    padding:0px;
+    background:#F8F8F8;
+
+}
+#header{
+    width: 100%;
+    border-bottom:2px solid;
+    border-color:#CE382C;
+    position:fixed;
+    z-index: 1;
+    background: rgba(255,255,255,0.9);
+}
+#logodiv
+{
+    position:absolute;
+    padding:30px;
+    margin-left: 30px;
+    border-bottom:2px solid; 
+    height:40px;
+    background: white;
+    border-color:#CE382C;
+}
+
+
+
+
+
+
+
+.menuitem
+{
+	font-size:20px;
+	text-decoration:none;
+	color:#CE382C;
+	padding:30px 20px 30px 20px;
+}
+.rmenuitem
+{
+	font-size:20px;
+	text-decoration:none;
+	color:#CE382C;
+	padding:30px;
+
+}
+.rmenuitem:hover
+{
+	background:#CE382C;
+	color:white;
+	transition:1s;
+	
+
+}
+
+.menuitem:hover
+{
+	background:#CE382C;
+	color:white;
+	transition:1s;
+
+}
+#cancelbtn
+{
+	display:none;
+}
+#rslider{
+width:100%;
+height:100%;
+position:fixed;
+z-index:999;
+
+margin-left:-70%;
+}
+
+	#rmenu
+	{
+		display:none;
+	}
+@media only screen and (max-width: 600px) {
+    #menu {
+        display:none;
+	}
+	#rmenu
+	{
+		display:block;
+	}
+}
+
+
+
+
+
+
+
+
+/*slidebar css*/
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index:0;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  #introduction-div
+  {
+      width:100%;
+      height: 100%;
+    background: url('../image/appointment-bg.jpg');
+    background-size:cover;
+    background-position: right;
+  }
+
+
+
+
